@@ -1,0 +1,52 @@
+appname = fantasy-api
+httpport = 8001
+runmode = dev
+copyrequestbody = true
+
+host = "https://igolang.cn"
+
+SessionOn=true
+SessionProvider="redis"
+SessionName="fantasySessionId"
+SessionGCMaxLifetime=86400
+SessionCookieLifeTime=86400
+SessionAutoSetCookie=true
+SessionProviderConfig="$host:$port,idle_num,$pass"
+
+db_user = ""
+db_password = ""
+db_host = ""
+db_port = 3306
+db_database = "fantasy"
+db_max_idle = 30
+db_max_conn = 30
+dB_loc = "Asia%2FShanghai"
+
+redis_type = "stand-alone"
+redis_host = ""
+redis_port = 6379
+redis_pass = ""
+
+account_salt = ""
+
+mail_station_name = "FANTASY"
+mail_host = "smtp.yeah.net"
+mail_user = "igolang@yeah.net"
+mail_pass = ""
+mail_port = "465"
+
+captcha_length = 6
+captcha_width = 400
+captcha_height = 100
+captcha_expire_date = 1m
+
+admin_user_token_expire = 24h
+admin_user_token_secret = ""
+
+default_page_size = 10
+
+session_server_expire_date = 86400
+cookie_client_expire_date = 86400
+server_gc_date = 86400
+
+public_account_salt = ""

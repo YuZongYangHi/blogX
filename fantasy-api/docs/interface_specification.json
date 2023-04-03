@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "list": [],
+    "current": 0,
+    "pageSize": 20,
+    "total": 30,
+  },
+  "errorCode": "1001",
+  "errorMessage": "error message",
+  "showType": 2,
+  "traceId": "someid",
+  "host": "10.1.1.1"
+}
